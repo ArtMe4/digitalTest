@@ -2,6 +2,9 @@ $(function() {
     $('.dropdown-rubriks-name').click( function(e) {
         $(e.target.querySelector('.fa-chevron-down')).toggleClass('fa-chevron-up');
     });
+    $('.dropdown-company-name').click( function(e) {
+        $(e.target.querySelector('.fa-chevron-down')).toggleClass('fa-chevron-up');
+    });
     $('.fa-chevron-down').click( function(e) {
         $(e.target).toggleClass('fa-chevron-up');
     });
