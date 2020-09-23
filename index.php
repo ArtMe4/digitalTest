@@ -10,7 +10,6 @@
     <title>Медтехника</title>
 </head>
 <body>
-    <?php require 'connect.php'; ?>
     <header>
         <div class="header-mobile d-block d-md-none">
             <div class="container d-flex justify-content-between">
@@ -149,7 +148,7 @@
             </div>
             <div class="col-md-9 pr-0 pl-0 pl-md-2">
                 <div class="row m-0">
-                    <?php require 'show.php'; ?>
+                    <?php require 'loading.php'; ?>
                     <div class="load mt-4 w-100">
                         <button type="button" class="load-more">
                             <i class="fas fa-redo-alt"></i><div class="spinner-grow text-primary d-none" style="width: 1rem; height: 1rem;" role="status">
